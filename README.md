@@ -37,6 +37,7 @@ create a build directory and run
 
 cmake .. && make
 
-### To run ```python
+### To run 
+```python
 ./main [path/to/model.tflite] [path/to/classes.txt] [input/video/or/camera] [path/to/output/video] 
 ```
