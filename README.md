@@ -2,7 +2,7 @@
 
 
 
-you need opencv and tensorflow libs to build this project
+you need opencv and tensorflow lite libs to build this project
 the tensorflow could be a subdirectory like they suggest in there website or just point to the includes
 
 The tree structure of directory:
