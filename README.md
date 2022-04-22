@@ -26,7 +26,7 @@ The tree structure of directory:
      └── label_coco_90.txt
 
 ```
-change the path in CMakeLists.txt
+change the paths in CMakeLists.txt
 
 INCLUDE_DIRECTORIES to point to the include dir and 
 
