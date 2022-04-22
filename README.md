@@ -1,9 +1,10 @@
-# Run ssd mobilenet original model "90" class with tensorflow lite
+# Run ssd mobilenet original model "90" classes with tensorflow lite
 
 
 
 you need opencv and tensorflow lite libs to build this project
-the tensorflow could be a subdirectory like they suggest in there website or just point to the includes
+the tensorflow lite could be a subdirectory like they suggest in there website or
+just point to the includes directory and libtensorflowlite.so (build with bazel) 
 
 The tree structure of directory:
 ```md
@@ -26,7 +27,9 @@ The tree structure of directory:
 
 ```
 change the path in CMakeLists.txt
+
 INCLUDE_DIRECTORIES to point to the include dir and 
+
 set_property to point to lib/libtensorflowlite.so
 
 
@@ -34,5 +37,6 @@ create a build directory and run
 
 cmake .. && make
 
-To run 
+### To run ```python
 ./main [path/to/model.tflite] [path/to/classes.txt] [input/video/or/camera] [path/to/output/video] 
+```
