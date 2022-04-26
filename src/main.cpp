@@ -89,7 +89,6 @@ int main(int argc, char *argv[])
         {
             cv::resize(frame, frame, cv::Size(frame_width, frame_height), 0, 0, true);
             video.write(frame);
-            // cv::imwrite("/home/muhammed/Documents/work/repositories/tflite_c++/test/media/out.jpg",frame);
         }
         cv::waitKey(10);
     }
